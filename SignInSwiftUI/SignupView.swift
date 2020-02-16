@@ -27,7 +27,7 @@ fileprivate final class UserInfo : ObservableObject {
         if self.name.count < 6 {
             isValid = false
             if self.name.count > 2 {
-                self.errorMessage = "User name must have at least five characters"
+                self.errorMessage = "User name must have at least six characters"
             }
         }
         return isValid
